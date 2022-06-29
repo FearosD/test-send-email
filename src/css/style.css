@@ -57,6 +57,14 @@ body {
   outline: 3px solid #0d8eb6;
 }
 
+.email__field.confirm {
+    outline: 3px solid #0db61b;
+}
+
+.email__field.wrong {
+    outline: 3px solid #ee4343;
+}
+
 .form__send-button {
   display: block;
   margin: 0 auto;
