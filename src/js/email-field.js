@@ -1,4 +1,4 @@
-export default class Form {
+export default class EmailField {
   constructor(emailField) {
     this.emailField = emailField;
   }
