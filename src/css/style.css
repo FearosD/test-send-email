@@ -57,12 +57,13 @@ body {
   outline: 3px solid #0d8eb6;
 }
 
-.email__field.confirm {
+.email__field.confirm,
+.message__field.confirm {
   outline: 3px solid #0db61b;
 }
 
-.email__field.wrong,
-.message__field.wrong {
+.email__field.disable,
+.message__field.disable {
   outline: 3px solid #ee4343;
 }
 
@@ -84,7 +85,7 @@ body {
 }
 
 .form__send-button.disable {
-    background: #4e525333;
-    cursor: default;
-    pointer-events: none;
-  }
+  background: #4e525333;
+  cursor: default;
+  pointer-events: none;
+}
